@@ -1,13 +1,13 @@
 {
-    "name": "culture-pn-psu/yii2-reserve-car",
-    "description": "Yii2 for Reserve Car management system.",
+    "name": "culture-pn-psu/yii2-activity",
+    "description": "Activity management system for Yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/culture-pn-psu/yii2-reserve-car.git",
-        "issues": "https://github.com/culture-pn-psu/yii2-reserve-car/issues"
+        "source": "https://github.com/culture-pn-psu/yii2-activity.git",
+        "issues": "https://github.com/culture-pn-psu/yii2-activity/issues"
     },
     "authors": [
         {
@@ -21,13 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "culturePnPsu\\reserveCar\\": ""
-        }
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "culturePnPsu\\activity\\": ""
         }
     }
 }
